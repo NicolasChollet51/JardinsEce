@@ -1,0 +1,56 @@
+#haut{
+	min-height: 400px;
+	background-repeat: no-repeat;
+}
+#haut h1{
+	text-align: center;
+}
+#nav{
+	background-color: #2ecc71;
+	text-align: center;
+	padding: 30px;
+}
+#nav a:hover{
+	color: black;
+} 
+#nav button{
+	min-width: 16%;
+	background-color: #2ecc71;
+	border: none;
+	font-size: 2em;
+}
+#accueil,#potager,#direct,#a_propos,#donnees,#partenaires{
+	padding: 50px;
+}
+.grid {
+  display : grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 150px);
+}
+
+.element {
+  margin: 10px;
+  padding : 20px;
+  background-color : green; 
+}
+#direct #vidéo,#direct #choix{
+	height: 600px;
+	border: 2px solid blue;
+	margin: 50px;
+}
+#a_propos section{
+	text-align: center;
+	padding: 20px;
+	background-color: lightgrey;
+	margin: 10px;
+}
+footer input{
+	padding: 5px;
+	margin :10px;
+}
+#accueil,#direct,#donnees{
+	background-color: #dfe6e9;
+}
+footer{
+	background-color: #2ecc71;
+}
