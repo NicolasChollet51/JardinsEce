@@ -7,7 +7,8 @@
 </head>
 <body>
 	<div id="haut">
-		<h1>PHOTO</h1>
+		<img src="Photo/Top">
+		<b>Potager de l'ECE</b>
 	</div>
 	<div id="nav">
 		<button><a href="#accueil" class="menu">Accueil</a></button>
@@ -19,6 +20,18 @@
 	</div>
 	<div id="accueil">
 		<h1>Accueil</h1>
+		<div class="bloc bloc1">
+			<img class="image1" src="Photo/Accueil_1">
+			<div class="texte1"> Texte 1</div>
+		</div>
+		<div class="bloc bloc2">
+			<div class="texte2">Texte 2</div>
+			<img class="image2" src="Photo/Accueil_2">
+		</div>
+		<div class="bloc bloc3">
+			<img class="image3" src="Photo/Accueil_3">
+			<div class="texte3">Texte 3</div>
+		</div>
 	</div>
 	<div id="potager" class="nom">
 		<h1>Potager</h1>
@@ -76,18 +89,19 @@
 				Facebook : <br>
 				Twitter : <br>
 			</div>
-			<div id="formulaire" class="col-md-6 ">
+			<div id="formulaire" class="col-md-5 offset-md-1">
 				<h2>Contactez nous !</h2>
 				<form>
 					<label>Nom : </label><input type="text" name="Nom">
 					<label>Prénom : </label><input type="text" name="Prénom"><br>
 					<label>Email : </label> <input type="mail" name="email"><br>
 					<label>Message : </label> <br><textarea rows="4" cols="70"></textarea>
+					<input class="bouton" type="submit" value="Envoyer">
 				</form>
 			</div>
 			<div id="map" class="col-md-4 ">
 				<h2>Retrouvez nous !</h2>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.3822819217917!2d2.2866509156393997!3d48.85092027928673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701b38dcf809%3A0xbe0c8deef61e0f96!2s15+Rue+Sextius+Michel%2C+75015+Paris!5e0!3m2!1sfr!2sfr!4v1546967361795" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.3822819217917!2d2.2866509156393997!3d48.85092027928673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701b38dcf809%3A0xbe0c8deef61e0f96!2s15+Rue+Sextius+Michel%2C+75015+Paris!5e0!3m2!1sfr!2sfr!4v1546967361795" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</footer>
