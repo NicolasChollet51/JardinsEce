@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Site Potager ECE</title>
 	<link rel="stylesheet" href="index.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -21,15 +22,15 @@
 	<div id="accueil">
 		<h1>Accueil</h1>
 		<div class="bloc bloc1">
-			<img class="image1" src="Photo/Accueil_1">
+			<img class="image1" src="Photo/Accueil_1.jpg">
 			<div class="texte1"> Texte 1</div>
 		</div>
 		<div class="bloc bloc2">
 			<div class="texte2">Texte 2</div>
-			<img class="image2" src="Photo/Accueil_2">
+			<img class="image2" src="Photo/Accueil_2.jpg">
 		</div>
 		<div class="bloc bloc3">
-			<img class="image3" src="Photo/Accueil_3">
+			<img class="image3" src="Photo/Accueil_3.jpg">
 			<div class="texte3">Texte 3</div>
 		</div>
 	</div>
