@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id="haut">
-		<img src="Photo/Top">
+		<img src="Photo/Top.jpg">
 		<b>Potager de l'ECE</b>
 	</div>
 	<div id="nav">
@@ -37,20 +37,45 @@
 	<div id="potager" class="nom">
 		<h1>Potager</h1>
 		<div class="row">
-			<div class="grid col-md-8">
-			   <div class="element">Element 1</div>
-			   <div class="element">Element 2</div>
-			   <div class="element">Element 3</div>
-			   <div class="element">Element 4</div>
-			   <div class="element">Element 5</div>
-			   <div class="element">Element 6</div>
-			   <div class="element">Element 7</div>
-			   <div class="element">Element 8</div>
-			   <div class="element">Element 9</div>
-			   <div class="element">Element 10</div>
-			   <div class="element">Element 11</div>
-			   <div class="element">Element 12</div>
-			</div>
+            
+            <div id="container">
+                    <div class="image-wrapper">
+                        <img id="garden-image" src="GardenWebView/garden.png">
+                    </div>
+
+                    <div class="sensor-wrapper" >
+                        <div class="sensor" id="sensor1">
+                            <img class="sensor-dot" src="GardenWebView/1024px-Location_dot_red.svg.png">
+                            <span class="tooltip">
+                                <ul class="tooltiplist" id="sensor1TooltipList">
+                                    <li class="plant-name">Plantation : Carrotes</li>
+                                    <li class="air-humidity">Humidité air : none</li>
+                                    <li class="soil-humidity">Humidité sol : none</li>
+                                    <li class="temperature">Température : none</li>
+                                    <li class="temperature-index">Index chaleur : none</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="sensor-wrapper" >
+                        <div class="sensor" id="sensor2">
+                            <img class="sensor-dot" src="GardenWebView/1024px-Location_dot_red.svg.png">
+                            <span class="tooltip" >
+                                <ul class="tooltiplist">
+                                    <li class="plant-name">Plantation : Tomates</li>
+                                    <li class="air-humidity">Humidite air : none</li>
+                                    <li class="soil-humidity">Humidite sol : none</li>
+                                    <li class="temperature">Temperature : none</li>
+                                    <li class="temperature-index">Index chaleur: none</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+            </div>
+            
+            <script src="updateSensorsData.js"></script>
+    
 			<div class="col-md-4">
 				<h3>Informations sur les capteurs</h3>
 			</div>
